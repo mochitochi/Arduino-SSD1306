@@ -1,30 +1,33 @@
 {
-  "env": {
-    "PACKAGES_PATH": "C:/bin/Arduino",
-    "USER_PATH": "C:/Users/marth/Documents/Arduino"
-  },
-  "configurations": [{
-    "name": "Win32",
-    "includePath": [
-        "C:\\bin\\Arduino\\tools\\**",
-        "C:\\bin\\Arduino\\hardware\\arduino\\avr\\**"
-    ],
-    "browse": {
-      "path": [
-        "${workspaceFolder}",
-        "${env:PACKAGES_PATH}/tools",
-        "${env:PACKAGES_PATH}/hardware",
-        "${env:PACKAGES_PATH}/libraries",
-        "${env:USER_PATH}/libraries"
-      ]
+    "env": {
+        "PACKAGES_PATH": "C:/bin/Arduino",
+        "USER_PATH": "C:/Users/marth/Documents/Arduino"
     },
-    "forcedInclude": [
-      "C:\\bin\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:\\bin\\Arduino\\tools\\**",
+                "C:\\bin\\Arduino\\hardware\\arduino\\avr\\**"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "${env:PACKAGES_PATH}/tools",
+                    "${env:PACKAGES_PATH}/hardware",
+                    "${env:PACKAGES_PATH}/libraries",
+                    "${env:USER_PATH}/libraries",
+                    "C:/Users/marth/Documents/Arduino"
+                ]
+            },
+            "forcedInclude": [
+                "C:\\bin\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+            ],
+            "intelliSenseMode": "msvc-x64",
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
     ],
-    "intelliSenseMode": "msvc-x64",
-    "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.25.28610/bin/Hostx64/x64/cl.exe",
-    "cStandard": "c11",
-    "cppStandard": "c++17"
-  }],
-  "version": 4
+    "version": 4
 }
